@@ -1,0 +1,24 @@
+{
+  "name": "blog-api-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.5",
+    "@types/sqlite3": "^3.1.11",
+    "@types/uuid": "^10.0.0",
+    "express": "^4.21.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2",
+    "uuid": "^10.0.0"
+  }
+}
